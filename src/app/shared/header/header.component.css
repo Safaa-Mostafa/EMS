@@ -1,0 +1,32 @@
+/* Header container */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+/* Left Section: Logo */
+.header-left .logo {
+  width: 60px;
+  height: auto;
+}
+
+/* Center Section: Title */
+.header-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #c62b2b; /* Dark color for the text */
+}
+
+/* Right Section: Another Logo */
+.header-right .logo {
+  width: 60px;
+  height: auto;
+}
