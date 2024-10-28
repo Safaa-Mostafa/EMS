@@ -13,8 +13,5 @@ import { StyleClassModule } from 'primeng/styleclass';
   styleUrl: './sidebar.component.css'
 })
 export class SidebarComponent {
-  dismissable = true;
-
-
-  sidebarVisible: boolean = true;
+ 
 }
