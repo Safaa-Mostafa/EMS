@@ -11,11 +11,7 @@ import { SidebarComponent } from './shared/sidebar/sidebar.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-
-  imports: [RouterOutlet,FormsModule,TableModule,HeaderComponent],
-
-  imports: [RouterOutlet,SidebarComponent],
-
+  imports: [RouterOutlet,FormsModule,TableModule,HeaderComponent,SidebarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
