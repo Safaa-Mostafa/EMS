@@ -1,0 +1,17 @@
+<div class="chart-container">
+  <div class="card-header">
+    <span>Floor</span>
+    <span>Temperature</span>
+    <p-dropdown 
+      [options]="billingOptions" 
+      [(ngModel)]="selectedBilling" 
+      placeholder="Monthly">
+    </p-dropdown>
+  </div>
+
+  <p-chart 
+    type="pie" 
+    [data]="carbonData" 
+    [options]="carbonOptions">
+  </p-chart>
+</div>
