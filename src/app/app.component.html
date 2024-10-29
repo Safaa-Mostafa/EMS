@@ -1,4 +1,24 @@
 <app-header></app-header>
 <router-outlet></router-outlet>
 <app-sidebar></app-sidebar>
-<app-floor-overview></app-floor-overview>
+<div class="main-container">
+    <app-floor-overview></app-floor-overview>
+    <div class="status-sections">
+        <div class="status-panel small-panel">
+            <app-temperature></app-temperature>
+            <app-carbon-footprint></app-carbon-footprint>
+            <app-ahu-maintenance></app-ahu-maintenance>
+        </div>
+        <div class="status-panel large-panel">
+            <app-ahu-visualization></app-ahu-visualization>
+            <app-floor-ahu-status></app-floor-ahu-status>
+            <app-temp-humidity-graph></app-temp-humidity-graph>
+        </div>
+        <div class="status-panel small-panel">
+            <app-chiller-system></app-chiller-system>
+            <app-hospital-ahu-summary></app-hospital-ahu-summary>
+            <app-occupancy></app-occupancy>
+            <app-system-alarm></app-system-alarm>
+        </div>
+    </div>
+</div>

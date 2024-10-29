@@ -1,8 +1,6 @@
 .floor-cards {
   display: flex;
   justify-content: space-around;
-  margin-left: 200px;
-  margin-top:2rem;
   color:#fff;
 }
 
@@ -10,14 +8,14 @@
   background: #050537 ;
   padding: 1rem 0.5rem;
   border-radius: 10px;
-  color: #bfc7d5; /* Light color for text */
-  width:calc(98%/4);
+  color: #bfc7d5;
+  width:calc(92%/4);
 
 }
 .floor-cards .p-card  {
   background-color: transparent !important;
-  box-shadow: none !important; /* Optional: removes the shadow for a fully transparent look */
-  border: none !important; /* Optional: removes border */
+  box-shadow: none !important;
+  border: none !important;
 }
 ::ng-deep .floor-card .p-card{
   background-color: transparent !important;
@@ -32,7 +30,7 @@
 }
 
 .floor-card .card-header h2 {
-  color: #4bb3fd; 
+  color: #4bb3fd;
   font-size: 1.25rem;
   margin: 0;
 }
@@ -58,7 +56,7 @@
 }
 
 ::ng-deep .floor-card .p-dropdown{
-  background-color: transparent !important; 
+  background-color: transparent !important;
   border:none;
 }
 ::ng-deep .floor-card .p-dropdown .p-dropdown-label.p-placeholder{
