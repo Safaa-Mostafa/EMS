@@ -1,1 +1,23 @@
-<p>ahu-maintenance works!</p>
+<div class="container">
+  <h2>AHU's Maintenance</h2>
+  <div class="maintenance-table-wrapper">
+    <table class="maintenance-table">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Running Hour</th>
+          <th>Fire Alarm</th>
+          <th>Maintenance Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let data of maintenanceData">
+          <td>{{ data.floor }}</td>
+          <td>{{ data.runningHour }}</td>
+          <td [ngClass]="{ 'normal': data.fireAlarm === 'Normal' }">{{ data.fireAlarm }}</td>
+          <td>{{ data.maintenanceDate }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -1,1 +1,21 @@
-<p>floor-overview works!</p>
+<div class="floor-cards">
+  @for( floor of floors ;track floor){
+    <p-card class="floor-card">
+      <div class="card-header">
+        <h2>{{floor.name}}</h2>
+        <p-dropdown [options]="billingOptions" [(ngModel)]="selectedBilling" placeholder="Monthly"></p-dropdown>
+      </div>
+      <div class="card-content">
+        <div class="info">
+          <span class="color-blue">Power Consumption</span>
+          <span>{{ floor.power }} KW</span>
+        </div>
+        <div class="info">
+          <span class="color-blue">Invoice</span>
+          <span>{{ floor.invoice }} EGP</span>
+        </div>
+      </div>
+    </p-card>
+
+  }
+</div>
