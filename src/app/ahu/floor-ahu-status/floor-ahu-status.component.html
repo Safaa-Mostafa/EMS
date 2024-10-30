@@ -1,1 +1,25 @@
-<p>floor-ahu-status works!</p>
+
+<div class="floors-container">
+@for(floor of floors;track floor){
+  <div class="floor-box">
+    <div class="floor-header">
+      <i class="pi pi-play floor-icon"></i>
+      <span>{{ floor.name }}</span>
+    </div>
+    <div class="status-container">
+   <div class="test">
+      <div class="status-circle on">
+        <span class="status-number">{{ floor.on }}</span>
+      </div>
+      <div class="status-label">AHU / ON</div>
+    </div>
+    <div class="test">   
+      <div class="status-circle off">
+        <span class="status-number">{{ floor.off }}</span>
+      </div>
+      <div class="status-label">AHU / OFF</div>
+    </div>
+    </div>
+  </div>
+}
+</div>
