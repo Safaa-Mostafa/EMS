@@ -1,1 +1,31 @@
-<p>chiller-system works!</p>
+<div class="chiller-systems">
+  <h2>Chiller Systems</h2>
+  <div class="line"></div>
+  <div class="chiller-details">
+    <div class="temperature stat inpatient">
+      <i class="pi pi-thermometer"></i>
+      <span>Return Temp</span>
+      <span>14&deg;</span>
+    </div>
+    <div class="temperature stat inpatient">
+      <i class="pi pi-thermometer"></i>
+      <span>Supply Temp</span>
+      <span> 9&deg;</span>
+    </div>
+    <div class="chiller-count">
+      <div style="position: relative; width: 80px; height: 80px;">
+        <svg width="80" height="80">
+          <circle cx="40" cy="40" r="35" stroke="lightgray" stroke-width="5" fill="none">
+          </circle>
+          <circle cx="40" cy="40" r="35" stroke="blue" stroke-width="5" stroke-dasharray="219.9"
+            [attr.stroke-dashoffset]="219.9 - (value / 100) * 219.9" fill="none" transform="rotate(-90 40 40)">
+          </circle>
+        </svg>
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 1.2em;">
+          <p>{{value}}/100</p>
+        </div>
+      </div>
+      <span style="text-align: center;">No. of Chiller</span>
+    </div>
+  </div>
+</div>
