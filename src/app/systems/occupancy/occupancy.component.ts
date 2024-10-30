@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './occupancy.component.css'
 })
 export class OccupancyComponent {
-
+  inpatientCount:number=1000;
+  outpatientCount:number=3000;
 }
