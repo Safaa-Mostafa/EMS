@@ -34,9 +34,10 @@
 
 .occupancy-card h2 {
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 800;
   margin: 0;
-  color: #e3f2fd;
+  color: #fff;
+  text-align: center;
 }
 
 .occupancy-percentage {
