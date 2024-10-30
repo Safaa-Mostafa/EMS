@@ -1,1 +1,12 @@
-<p>temp-humidity-graph works!</p>
+<div class="graph-container">
+    <div class="button-group">
+        <label for="floorSelect">Select Floor:</label>
+        <select id="floorSelect" (change)="onFloorChange($event)">
+            <option value="ground">Ground Floor</option>
+            <option value="first">First</option>
+            <option value="second">Second</option>
+            <option value="third">Third</option>
+        </select>
+    </div>
+    <canvas id="myChart"></canvas>
+</div>

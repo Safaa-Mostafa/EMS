@@ -1,0 +1,22 @@
+<<<<<<< Updated upstream
+=======
+.temperature-container {
+  width: 100%; /* Allow full width */
+  max-width: 800px; /* Optional: maximum width */
+  margin: 0 auto; /* Center the container */
+  padding: 10px;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+p-chart {
+  width: 100%; /* Chart takes full width of container */
+  height: 400px; /* Set height to make it visible */
+}
+
+.line {
+  width: 40%; /* Adjust this width to match the title's length */
+  height: 2px;
+  background: linear-gradient(to right, transparent, #ccc, transparent);
+  margin-top: 5px; /* Optional: adjust to position line closer to the title */
+}
+>>>>>>> Stashed changes
