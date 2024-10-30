@@ -1,13 +1,14 @@
 .chart-container {
-  background-color: #1b2941;
   color: #ffffff;
   padding: 1rem;
   margin-top: 1rem;
-  border-radius: 8px;
-  max-width: 800px; /* Ensures it doesn’t grow too large */
-  margin-left: auto; 
-  margin-right: auto; /* Centers the chart */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adds a slight shadow for better visibility */
+  border-radius: 5%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #1b2941;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  overflow: hidden;
+
 }
 
 .card-header {
@@ -16,7 +17,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  gap: 1rem; /* Adds spacing between elements */
+  gap: 1rem;
 }
 
 .p-dropdown {
@@ -28,12 +29,12 @@
 
 @media (max-width: 768px) {
   .card-header {
-    flex-direction: column; /* Stack elements vertically on smaller screens */
+    flex-direction: column;
     align-items: stretch;
   }
 
   .p-dropdown {
-    width: 100%; /* Full-width dropdown on smaller screens */
+    width: 100%;
     margin-top: 0.5rem;
   }
 }

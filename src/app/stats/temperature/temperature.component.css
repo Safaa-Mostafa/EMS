@@ -3,6 +3,8 @@
   color: #ffffff;
   padding: 1rem;
   border-radius: 8px;
+  width:100%;  overflow: hidden;
+
 }
 h3 {
   text-align: center;
