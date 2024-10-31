@@ -1,6 +1,6 @@
 .main-container {
   margin-left: 200px;
-  margin-top: 2rem;
+  margin-top: 6rem;
   display: flex;
   flex-direction: column;
 }
@@ -20,9 +20,9 @@
 }
 
 .small-panel {
-  width: calc(25% - 2rem); 
+  width: calc(25% - 2rem);
 }
 
 .large-panel {
-  width: calc(50% - 2rem); 
+  width: calc(50% - 2rem);
 }
