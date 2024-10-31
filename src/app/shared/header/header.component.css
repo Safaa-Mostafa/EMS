@@ -3,12 +3,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 20px;
+  padding: 15px 30px;
+  background-color: #050537; /* Same dark background as the main page */
+  color: #ffffff;
 }
 
 /* Left Section: Logo */
 .header-left .logo {
-  width: 60px;
+  width: 180px;
   height: auto;
 }
 
@@ -20,13 +22,22 @@
 }
 
 .title {
-  font-size: 1.8em;
+  font-size: 2.2em;
   font-weight: bold;
-  color: #c62b2b; /* Dark color for the text */
+  color: #ffffff;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+  font-family: Arial, sans-serif;
 }
 
-/* Right Section: Another Logo */
+/* Right Section: Siemens Logo */
 .header-right .logo {
-  width: 60px;
+  width: 150px; /* Wider Siemens logo */
   height: auto;
+}
+
+/* Optional thin line under header, matching the main background */
+.header-line {
+  width: 100%;
+  height: 2px;
+  background-color: #0b1e35; /* Matches header and page background for seamless look */
 }
