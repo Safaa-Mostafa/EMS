@@ -1,22 +1,17 @@
 /* Header container */
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 20px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 8px 20px; /* Reduced padding for a shorter height */
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(7,7,102,1) 89%, rgba(6,6,90,1) 100%, rgba(9,9,121,1) 100%, rgba(5,5,78,1) 100%, rgba(0,212,255,1) 100%);
-    color: #ffffff;
-    z-index: 10;
-  
+  padding: 8px 20px; /* Reduced padding for a shorter height */
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(7,7,102,1) 89%, rgba(6,6,90,1) 100%, rgba(9,9,121,1) 100%, rgba(5,5,78,1) 100%, rgba(0,212,255,1) 100%);
+  color: #ffffff;
+  z-index: 10;
 }
 
 /* Padding to avoid overlap with the fixed header */
@@ -48,7 +43,8 @@
 /* Right Section: Siemens Logo */
 .header-right .logo {
 
-  width: 60px;
+  width: 150px;
+
   height: auto;
 }
 
@@ -59,5 +55,3 @@
   height: 2px;
   background-color: #0b1e35;
 }
-
-
