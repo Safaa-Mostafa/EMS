@@ -12,12 +12,13 @@
 }
 
 .status-panel {
-  background: #050537;
+  background: linear-gradient(to right, #050537, #1a1a72); /* Adjust colors as needed */
   padding: 1rem 0.5rem;
   border-radius: 10px;
   color: #bfc7d5;
   margin: 0 1rem;
 }
+
 
 .small-panel {
   width: calc(25% - 2rem);

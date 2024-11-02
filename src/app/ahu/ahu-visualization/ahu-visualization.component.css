@@ -12,7 +12,7 @@
 }
 
 .line {
-  width: 20%; /* Adjust this width to match the title's length */
+  width:20%; /* Adjust this width to match the title's length */
   height: 2px;
   background: linear-gradient(to right, transparent, #ccc, transparent);
   margin-top: 5px; /* Optional: adjust to position line closer to the title */
